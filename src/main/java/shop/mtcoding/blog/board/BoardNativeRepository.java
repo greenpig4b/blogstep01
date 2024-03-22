@@ -52,7 +52,7 @@ public class BoardNativeRepository {
     public void deleteById(Integer id) {
         Query query = em.createNativeQuery("delete from board_tb where id = ?");
         query.setParameter(1,id);
-
+        //sdssdsdsd
         query.executeUpdate();
     }
 }
